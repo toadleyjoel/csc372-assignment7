@@ -1,0 +1,35 @@
+.app-container {
+  text-align: center;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.game-board {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.throw-option {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.throw-option:hover, .throw-option:focus {
+  transform: scale(1.1);
+  outline: none;
+}
+
+.throw-option.selected {
+  border-color: #4CAF50; /* Highlights the selected image */
+}
+
+.computer-throw img {
+  width: 120px;
+  height: 120px;
+}
