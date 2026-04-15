@@ -7,7 +7,9 @@ This assignment is a React-based implementation of the classic Rock-Paper-Scisso
 
 To run this application locally on your machine, follow these steps:
 
-1. **Clone the repository:**
+1. **Clone the repository:**\
+Using the terminal that looks like:
+
    ```bash
    git clone <your-repository-url>
    cd <your-repository-directory>
@@ -35,4 +37,4 @@ Shifting from vanilla JavaScript DOM manipulation to React's declarative state m
 
 Using useState and useEffect makes tracking the player's choice, the computer's rolling state, and the overall score easier. Breaking the UI down into modular components (PlayerThrow, ComputerThrow, ScoreBoard, etc.) keeps the code clean. 
 
-Implementing the extra credit features, the score tracker and the reset button, further deomnstrates that state flows downward through props and how events bubble up to the parent component to update that state. 
+Implementing the extra credit features, the score tracker and the reset button, further demonstrates that state flows downward through props and how events bubble up to the parent component to update that state. 
