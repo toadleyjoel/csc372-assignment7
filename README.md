@@ -3,6 +3,9 @@
 ## Overview
 This assignment is a React-based implementation of the classic Rock-Paper-Scissors game. It features modular components, gameplay, state management using React Hooks, and CSS styling.
 
+## Demo Video
+[Demo Video link](https://uncg-my.sharepoint.com/:v:/g/personal/jxpickett_uncg_edu/IQBjWC6MzOKpSaKNOWNBDynBAXTVwoo4k8iYaiZTXGzId-c?e=jKWbtD)
+
 ## Setup Instructions
 
 To run this application locally on your machine, follow these steps:
